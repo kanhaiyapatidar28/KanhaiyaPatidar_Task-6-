@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-section{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.left-section img{
+    width: 30vw;
+    height: auto;
+    display: flex;
+}
+.right-section{
+    width: 50vw;
+    height: 100vh;
+    display: inline-block;
+    align-items: center;
+    background-color: #d2e2ff;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+#login-form input{
+    font-size: 1.5vw;
+    padding: 1vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    width: 30vw;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 0.5vw;
+    border-color: #6baef1;
+    border-width: 0;
+}
+
+button{
+    font-size: 1.5vw;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 32vw;
+    height: 5vh;
+    background-color: #6baef1;
+    border-radius: 0.5vw;
+    border-color: #6baef1;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+    border-width: 0;
+}
+
+h1{
+    font-size: 3vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+p{
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+label{
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+#forgot-password{
+    font-size: 1.2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 1vh;
+    text-decoration: none;
+    color: #030303;
+}
